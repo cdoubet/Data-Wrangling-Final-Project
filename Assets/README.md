@@ -2,4 +2,4 @@
 
 
 ## Additonal Information Regarding the Project
-This could be used for anything that isn't data
+This is used for any additonal information that doesn't include data (information regarding the project).

@@ -51,8 +51,13 @@ This project aims to answer several research questions:
 - **Jupyter Notebook**: For data scraping and initial data exploration.
 - **Visual Studio Code**: For data conversion and preprocessing.
 
+## Folders in my Github
+- **Assets**: This is used for any additonal information that doesn't include data (information regarding the project).
+- **Code**: This folder includes folders for my jupyter notebooks and python scrypts
+- **Data**: This folder includes my raw and finalyzed data.
+- **Results**: This folder is used for my final PowerPoint and any visualizations/graphs from the final results.
 
-### To do list
+## To do list
 ---
 [ ] task 1  
 [ ] task 1  
@@ -61,7 +66,7 @@ This project aims to answer several research questions:
 [ ] task 1  
 
 
-### Change log
+## Change log
 ---
 - 2024-11-14    CLD     Created a Github Document
 - 2024-11-14    CLD     Worked on Scraping Data through 2019
