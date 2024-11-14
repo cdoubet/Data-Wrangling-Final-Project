@@ -1,6 +1,3 @@
-# data-analytics-template
-BAIS3250_HW5
-
 # The Economic Influence of Billionaires
 
 **Data Wrangling Project by Charlie Doubet & Matthew Riedl**
@@ -14,15 +11,18 @@ Money often equates to power, but does it also translate to economic influence? 
 Our analysis utilizes three primary datasets:
 
 1. **The Complete World Billionaire List**  
-   - **Source**: Areppim Stats  
-   - **Description**: Top 500 billionaires per year since 1996, including details like rank, net worth, industry, and country. This data will be scraped and compiled to build a year-by-year profile of billionaires globally.
+   - **Source**: Kaggle
+   - **Link**: https://www.kaggle.com/datasets/guillemservera/forbes-billionaires-1997-2023
+   - **Description**: Every billionaire per year since 1997, including details like rank, net worth, industry, and country. This CSV file will be cleaned to build a year-by-year profile of billionaires globally from the past 5 years.
 
 2. **Real GDP Growth Per Country**  
-   - **Source**: International Monetary Fund (IMF)  
-   - **Description**: Annual GDP growth rate for each country over the past 20 years. This data will be converted to CSV format for easy integration.
+   - **Source**: MacroTrends  
+   - **Link**: https://www.macrotrends.net/global-metrics/countries/ranking/gdp-growth-rate
+   - **Description**: Annual GDP growth rate for each country over the past 5 years. This data will be scraped to create a dataframe with each countires GDP change from year-to-year.
 
 3. **Unemployment Rates Per Country**  
    - **Source**: World Bank  
+   - **Link**: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
    - **Description**: Yearly unemployment rates by country for the last 20 years, providing insights into workforce health across economies.
 
 ## Data Structure
@@ -30,11 +30,11 @@ Our analysis utilizes three primary datasets:
 | Field              | Type       | Source         | Description                                                         |
 |--------------------|------------|----------------|---------------------------------------------------------------------|
 | `year`             | Text       | All            | Year of the billionaire, GDP, and unemployment data                 |
-| `name`             | Text       | Areppim        | Name of the billionaire                                             |
-| `net_worth`        | Numeric    | Areppim        | Net worth of the billionaire                                        |
-| `industry`         | Text       | Areppim        | Industry where the billionaire obtained their wealth                |
+| `name`             | Text       | Kaggle         | Name of the billionaire                                             |
+| `net_worth`        | Numeric    | Kaggle         | Net worth of the billionaire                                        |
+| `industry`         | Text       | Kaggle         | Industry where the billionaire obtained their wealth                |
 | `country`          | Text       | All            | Country of residence for the billionaire, applicable GDP, and unemployment rate |
-| `gdp_growth`       | Numeric (%)| IMF            | Annual GDP growth rate per country                                  |
+| `gdp_growth`       | Numeric (%)| MacroTrends    | Annual GDP growth rate per country                                  |
 | `unemployment_rate`| Numeric (%)| World Bank     | Annual unemployment rate per country                                |
 
 ## Proposed Analysis
@@ -50,7 +50,6 @@ This project aims to answer several research questions:
 
 - **Jupyter Notebook**: For data scraping and initial data exploration.
 - **Visual Studio Code**: For data conversion and preprocessing.
-- **Python Libraries**: Pandas, BeautifulSoup, and Matplotlib for data analysis and visualization.
 
 
 ### To do list
