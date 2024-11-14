@@ -59,11 +59,11 @@ This project aims to answer several research questions:
 
 ## To do list
 ---
-~[x] Collect data and website for scraping~
-~[x] Scrape the data and read the CSV File~
-[ ] Merge the Datasets
-[ ] Analyze data for proposed analysis
-[ ] Create PowerPoint for results
+~[x] Collect data and website for scraping~  
+~[x] Scrape the data and read the CSV File~  
+[ ] Merge the Datasets  
+[ ] Analyze data for proposed analysis  
+[ ] Create PowerPoint for results  
 
 
 ## Change log
