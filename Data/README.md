@@ -12,12 +12,12 @@ Data after all cleaning, processing, and analyzing
 ---
 
 ## Data Dictionary
-| Field             | Type         | Source         | Description                                                                                     |
-|-------------------|--------------|----------------|-------------------------------------------------------------------------------------------------|
-| year              | Text         | All            | Year of the billionaire, GDP, and unemployment data.                                            |
-| name              | Text         | Areppim        | Name of the billionaire.                                                                        |
-| net_worth         | Numeric      | Areppim        | Net worth of the billionaire.                                                                   |
-| industry          | Text         | Areppim        | Industry in which the billionaire obtained their wealth.                                        |
-| country           | Text         | All            | Country where the billionaire resides, with applicable GDP growth rate and unemployment rate.   |
-| gdp_growth        | Numeric (%)  | IMF excel      | Year-by-year GDP growth rate per country.                                                       |
-| unemployment_rate | Numeric (%)  | World Bank excel | Year-by-year unemployment rate per country.                                                   |
+| Field              | Type       | Source         | Description                                                         |
+|--------------------|------------|----------------|---------------------------------------------------------------------|
+| `year`             | Text       | All            | Year of the billionaire, GDP, and unemployment data                 |
+| `name`             | Text       | Kaggle         | Name of the billionaire                                             |
+| `net_worth`        | Numeric    | Kaggle         | Net worth of the billionaire                                        |
+| `industry`         | Text       | Kaggle         | Industry where the billionaire obtained their wealth                |
+| `country`          | Text       | All            | Country of residence for the billionaire                            |
+| `gdp_growth`       | Numeric (%)| MacroTrends    | Annual GDP growth rate per country                                  |
+| `unemployment_rate`| Numeric (%)| World Bank     | Annual unemployment rate per country                                |

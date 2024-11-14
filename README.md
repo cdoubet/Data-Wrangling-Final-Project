@@ -33,7 +33,7 @@ Our analysis utilizes three primary datasets:
 | `name`             | Text       | Kaggle         | Name of the billionaire                                             |
 | `net_worth`        | Numeric    | Kaggle         | Net worth of the billionaire                                        |
 | `industry`         | Text       | Kaggle         | Industry where the billionaire obtained their wealth                |
-| `country`          | Text       | All            | Country of residence for the billionaire, applicable GDP, and unemployment rate |
+| `country`          | Text       | All            | Country of residence for the billionaire                            |
 | `gdp_growth`       | Numeric (%)| MacroTrends    | Annual GDP growth rate per country                                  |
 | `unemployment_rate`| Numeric (%)| World Bank     | Annual unemployment rate per country                                |
 
