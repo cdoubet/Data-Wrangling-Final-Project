@@ -1,4 +1,4 @@
-# Data Foler
+# Data Folder
 
 
 ## Folders
