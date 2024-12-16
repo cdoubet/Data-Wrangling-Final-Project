@@ -43,7 +43,6 @@ This project aims to answer several research questions:
 
 - Does a high number of billionaires correlate with stable GDP growth for a country? Do fewer billionaires indicate greater economic volatility?
 - Is there a relationship between the billionaire population and unemployment rates? Do wealthy individuals in a country signify a healthier job market or potentially high unemployment due to wealth concentration?
-- Which countries exhibit the healthiest economies based on GDP growth and low unemployment? Do these countries also have a large number of billionaires?
 - Who are the top ten billionaires worldwide, and where do they reside? Are their home countries economically healthy?
 
 ## Technologies
