@@ -4,10 +4,10 @@
 ## Folders
 
 ### Raw Data
-Original, unmodified data after downloading, scraping, etc
+This folder includes our three original, unmodified data after downloading and scraping.
 
 ### Final Data
-Data after all cleaning, processing, and analyzing
+This folder includes the five cleaned and merged datasets that we will use for our project.
 
 ---
 
